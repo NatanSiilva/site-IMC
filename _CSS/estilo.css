@@ -1,0 +1,181 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+
+/* cabecalho */
+
+header#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+
+    background: green;
+
+    width: 100%;
+    height: 70px;
+}
+
+header#cabecalho h1 {
+    padding-left: 30px ;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+header#cabecalho p {
+    padding-right: 30px ;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* link para o meu github */
+
+
+a.git {
+    text-decoration: none;
+    color: white;
+}
+
+p a.git:hover {
+    color: black;
+}
+
+
+/* corpo completo da pagina */
+
+
+main#corpo {
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+    
+}
+
+/* quadro branco onde do site onde fica o calculo do imc*/
+
+
+section#painel-imc {
+
+    width: 80%;
+    height: 440px;
+
+    display: block;
+    position: relative;
+
+    margin: 80px auto;
+
+    background: white;
+    
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+div.painel h3 {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background: yellow;
+}
+
+span.nomeCalc {
+    color: rgba(0, 0, 0, 0.84);
+    font-family: 12pt, 'Roboto', sans-serif;
+}
+
+div#small {
+    color: #777777;
+    font-family: 12pt, 'Roboto', sans-serif;
+}
+
+div#colu-infor {
+ 
+    width: 50%;
+    height: 320px;
+
+    padding: 40px 0px 0px 150px;
+}
+
+
+div span.h4 {
+    display: block;
+    padding-bottom: 30px;
+}
+
+label.peso1 {
+    display: block;
+    padding-bottom: 10px;
+}
+
+ label#altura {
+    display: block;
+    padding-bottom: 10px;
+ }
+
+input#peso {
+   border: 0 none;
+
+   height: 30px;
+
+   display: inline-block;
+   margin-bottom: 30px;
+
+   background: #eeeeee;
+   color: black;
+}
+
+input#altura1 {
+   border: 0 none;
+
+   height: 30px;
+
+   display: inline-block;
+   margin-bottom: 30px;
+   
+   background: #eeeeee;
+   color: black;
+}
+
+
+
+fieldset#idoso-adulto {
+    border: 0 none;
+}
+
+input#enviar1 {
+
+    display: block;
+    margin-top: 60px;
+
+    background: green;
+    color: white;
+
+    width: 100px;
+    height: 40px;
+
+    border-radius: 8px;
+}
+div input#enviar1:hover {
+    color: black;
+}
+
+div#resultado1 {
+    display: block;
+    position: absolute;
+    
+    right: 40%;
+    top: 40px;
+}

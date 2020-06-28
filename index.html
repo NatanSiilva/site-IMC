@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calaculadora do IMC</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
+    
+    <link rel="stylesheet" type="text/css" href="_CSS/estilo.css">
+</head>
+<script type="text/javascript" charsert="UTF-8" src="_JS/arquivo.js"></script>
+<body>
+
+    <header id="cabecalho">
+        <h1>Calculadora do imc</h1>
+        <p><a class="git" href="https://github.com/NatanSiilva" target="blank">By Natanael da Silva</a></p>
+    </header>
+
+
+    <main id="corpo">
+
+        
+
+        <div class="painel">
+            <h3 class="titul-calc">
+                <span class="nomeCalc">IMC</span>
+                <small>Calculo do Indice de Massa Corporal</small>
+            </h3>
+        </div>
+
+        <section id="painel-imc">
+           <div id="colu-infor">
+               <span class="h4">Informações do Paciente</span>
+               <div class="form-group">
+                    <label class="peso1" for="pesoid" >Peso</label>
+                    <div class="ipunt-group">
+                        <div class="input1"> 
+                            <input type="number" name="tpeso" id="peso" size="" placeholder="Digite o seu Peso em kg ">
+                            <span class="kg1">Kg</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group1">
+                   <label for="alturaid" id="altura">Altura</label>
+                    <div class="input-group1">
+                        <div class="input2">
+                            <input type="number" name="taltura" id="altura1" size="" placeholder="Digite a sua Altura em M"/>
+                            <span class="metro">M</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="">
+                    <fieldset id="idoso-adulto">
+                        <input type="radio" name="tidoso" id="cidoso"/><label for="cidoso">Idoso: idade > 65 anos</label></br>
+                        <input type="radio" name="tidoso" id="cadulto"/><label for="cadulto">Adulto: idade <= 65 anos</label>
+                    </fieldset>
+                </form>
+            
+                <input type="button" value="calcular" id="enviar1" onclick="calculoImc()">
+
+                <div id="resultado1"></div>
+                
+                    
+            </div>
+
+            
+        </section>
+    </main>
+
+
+</body>
+</html>
