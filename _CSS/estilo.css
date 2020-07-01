@@ -5,12 +5,14 @@
 
 
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html, body {
+
     width: 100%;
     height: 100%;
     font-family: arial, sans-serif;
@@ -19,6 +21,7 @@ html, body {
 /* cabecalho */
 
 header#cabecalho {
+
     display: flex;
     align-items: center;
     justify-content: space-between;  
@@ -30,6 +33,7 @@ header#cabecalho {
 }
 
 header#cabecalho h1 {
+
     padding-left: 30px ;
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -37,6 +41,7 @@ header#cabecalho h1 {
 
 
 header#cabecalho p {
+
     padding-right: 30px ;
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -47,11 +52,13 @@ header#cabecalho p {
 
 
 a.git {
+
     text-decoration: none;
     color: white;
 }
 
 p a.git:hover {
+
     color: black;
 }
 
@@ -60,6 +67,7 @@ p a.git:hover {
 
 
 main#corpo {
+
     width: 100%;
     height: 100%;
     background: #eeeeee;
@@ -85,18 +93,22 @@ section#painel-imc {
 }
 
 div.painel h3 {
+
     padding-top: 10px;
     padding-left: 50px;
     padding-bottom: 10px;
+
     background: yellow;
 }
 
 span.nomeCalc {
+
     color: rgba(0, 0, 0, 0.84);
     font-family: 12pt, 'Roboto', sans-serif;
 }
 
 div#small {
+
     color: #777777;
     font-family: 12pt, 'Roboto', sans-serif;
 }
@@ -111,21 +123,28 @@ div#colu-infor {
 
 
 div span.h4 {
+
     display: block;
     padding-bottom: 30px;
+
+    font: bolder 17pt arial;
+    
 }
 
 label.peso1 {
+
     display: block;
     padding-bottom: 10px;
 }
 
- label#altura {
+label#altura {
+
     display: block;
     padding-bottom: 10px;
  }
 
 input#peso {
+
    border: 0 none;
 
    height: 30px;
@@ -138,6 +157,7 @@ input#peso {
 }
 
 input#altura1 {
+
    border: 0 none;
 
    height: 30px;
@@ -152,6 +172,7 @@ input#altura1 {
 
 
 fieldset#idoso-adulto {
+
     border: 0 none;
 }
 
@@ -168,14 +189,17 @@ input#enviar1 {
 
     border-radius: 8px;
 }
+
 div input#enviar1:hover {
+
     color: black;
 }
 
 div#resultado1 {
+    
     display: block;
     position: absolute;
     
-    right: 40%;
+    right: 10%;
     top: 40px;
 }
